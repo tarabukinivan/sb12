@@ -111,4 +111,7 @@ COMPOSE_PROJECT_NAME=compute_horde_miner
 PORT_FOR_EXECUTORS=8000
 ADDRESS_FOR_EXECUTORS=172.17.0.1
 ENDENV
+docker pull backenddevelopersltd/compute-horde-executor:v0-latest
+docker pull backenddevelopersltd/compute-horde-miner:v0-latest
+docker pull backenddevelopersltd/compute-horde-job:v0-latest
 ENDSSH
